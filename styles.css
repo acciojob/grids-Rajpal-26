@@ -1,2 +1,58 @@
-
 /* Your CSS Code here. */
+.container {
+  display: grid;
+  border: 2px solid green;
+  padding: 10px 10px;
+
+  background-color: pink;
+}
+.row {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#row1-col1 {
+  background-color: teal;
+  height: 150px;
+  border: 1px dotted black;
+}
+#row1-col2 {
+  background-color: wheat;
+  border: 1px dotted black;
+}
+#row2 {
+  padding-top: 10px;
+}
+
+#row2-col1,
+#row2-col3 {
+  background-color: rgb(99, 3, 3);
+  height: 150px;
+  border: 1px dotted black;
+}
+
+#row2-col2 {
+  background-color: rgb(206, 55, 55);
+  border: 1px dotted black;
+}
+#row2-col4 {
+  background-color: rgb(64, 146, 179);
+  border: 1px dotted black;
+}
+#row3 {
+  padding-top: 10px;
+}
+#row3-col1,
+#row3-col4 {
+  background-color: rgb(99, 3, 3);
+  height: 150px;
+  border: 1px dotted black;
+}
+#row3-col2 {
+  background-color: palevioletred;
+  border: 1px dotted black;
+}
+#row3-col3 {
+  background-color: rgb(138, 194, 33);
+  border: 1px dotted black;
+}
